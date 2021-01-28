@@ -1,0 +1,210 @@
+<html>
+    <button onclick="A()">A</button>
+    <button onclick="B()">B</button>
+    <button onclick="C()">C</button>
+    <button onclick="D()">D</button>
+    <button onclick="E()">E</button>
+    <button onclick="F()">F</button>
+    <br><br>
+    
+    <head>
+    <script>
+
+          function A(){
+              
+          var i=5; var j=0 ; 
+
+while ( i >0 ) {
+    
+     
+     var j=4;
+      while(j>5-i) {
+          document.write('Q');
+          j--
+      }
+      var k=0;
+      while(k<=5-i)
+      {
+      document.write('&');
+      k++;
+      }
+      i--;
+      
+   document.write('<br />')
+  }
+          }  
+
+
+
+
+    function B() {
+        var i=0,j=0,k=0;;
+        
+        while(i<=5){
+            j=0;
+            while(j>i){
+                document.write("Q")
+                j--;
+            }
+            k=0;
+            while(k<i){
+                document.write("A")
+                k++;
+            }
+           
+            document.write('<br />')
+            i++;
+        }
+    }
+
+
+    function C(){
+        var i=0;j=0;k=0;
+        
+        while(i<5){
+
+            j=5-i
+            while(j>1){
+                document.write("*")
+                j--;
+            }
+            j=0;
+            while(j<=i){
+                document.write("X&nbsp;")
+                j++;
+            }
+            i++
+            document.write('<br />')
+        }
+
+       
+    }
+
+
+function D(){
+var i=0;j=0;k=0;
+   while(i<5){
+
+    k=0
+       while(k<=i){
+         document.write("*")
+         k++
+       }
+       j=0
+       while(j<((5-i)*2)-1){
+         document.write("X")
+          j++
+       
+       
+       }
+       k=0
+       while(k<=i){
+         document.write("*")
+         k++
+       }
+       
+        document.write('<br />')
+        i++
+    }
+       }
+
+
+
+       function E(){
+            var a=0,b=5,c=0;d=0, l=5;
+
+            
+
+            while(a<=5){
+
+                b=5-a;
+                while(b<=5){
+                    document.write("k")
+                    b++
+                }
+                c=0;
+                while(c<=5-a){
+                document.write("o")
+                c++
+                }
+                var d=0;
+                while(d<=(5-a)-1){
+                    document.write("o")
+                    d++
+                }
+                var l=5-a
+                while(l<=5){
+                    document.write("k")
+                    l++
+                }
+                document.write('<br />')
+                a++
+            }
+
+    }
+
+
+    function F(){
+        var a=0,d=5,c=5;
+        while(a<=5) {
+            b=0+a
+            while(b<=5){
+                document.write("k")
+                b++
+            }
+            c=5-a
+            while(c<=(5+a)){
+                document.write("o")
+                c++;
+
+            }
+            k=0+a
+            while(k<=d){
+                document.write("k")
+                k++
+            }
+            document.write('<br />')
+            a++
+            
+        }
+
+        var a=0,b=5,c=0;d=0, l=5;
+
+            
+
+while(a<=5){
+
+    b=5-a;
+    while(b<=5){
+        document.write("k")
+        b++
+    }
+    c=0;
+    while(c<=5-a){
+    document.write("o")
+    c++
+    }
+    var d=0;
+    while(d<=(5-a)-1){
+        document.write("o")
+        d++
+    }
+    var l=5-a
+    while(l<=5){
+        document.write("k")
+        l++
+    }
+    document.write('<br />')
+    a++
+}
+
+
+
+
+    }
+    
+
+
+    </script>
+     </head>
+</html>
